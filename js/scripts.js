@@ -41,22 +41,18 @@ $(document).ready(function() {
 
         if (result[0] > 0) {
             $('#p-quarters').show();
-            $('#quarters').show();
         }
 
         if (result[1] > 0) {
             $('#p-dimes').show();
-            $('#dimes').show();
         }
 
         if (result[2] > 0) {
             $('#p-nickels').show();
-            $('#nickels').show();
         }
 
         if (result[3] > 0) {
             $('#p-pennies').show();
-            $('#pennies').show();
         }
 
         $("#quarters").text(result[0]);
@@ -65,11 +61,8 @@ $(document).ready(function() {
         $("#pennies").text(result[3]);
 
         $('#result').show();
-
         event.preventDefault();
 
-
-    })
-
+    });
 
 });
