@@ -25,7 +25,6 @@ var coinCombo = function(change) {
             var pennies = Math.floor(cents / 01);
             coins[3] = pennies;
             cents = 0;
-            // cents -= (pennies * 01);
             break;
     }
 
