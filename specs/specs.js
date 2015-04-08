@@ -18,4 +18,17 @@ describe("coinCombo", function() {
     it("will return [1, 0, 0, 0] for an input of .25", function() {
         expect(coinCombo(.25)).to.eql([1, 0, 0, 0]);
     });
+
+    it("will return [0, 0, 1, 1] for an input of .06", function() {
+        expect(coinCombo(.06)).to.eql([0, 0, 1, 1]);
+    });
+
+    it("will return [1, 1, 1, 1] for an input of .41", function() {
+        expect(coinCombo(.41)).to.eql([1, 1, 1, 1]);
+    });
+
+    it("will return [3, 1, 0, 1] for an input of .86", function() {
+        expect(coinCombo(.86)).to.eql([3, 1, 0, 1]);
+    });
+
 });
